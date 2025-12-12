@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python compilation files
+__pycache__/
+*.py[cod]
+
+# Docker Persistent Volumes (if mapped locally)
+n8n_data/
+ollama_storage/
+qdrant_storage/
+
+# System files
+.DS_Store
+Thumbs.db
